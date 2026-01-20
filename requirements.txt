@@ -1,0 +1,5 @@
+ai-edge-torch-nightly
+ai-edge-litert-nightly
+huggingface_hub
+mediapipe
+torch
