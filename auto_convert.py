@@ -91,7 +91,7 @@ ARCH_MAP = {
 # -----------------------------------------------------------------------------
 def main():
     # Run Repair Check First
-    fix_environment()
+    #fix_environment()
     
     # Late imports to ensure repair worked
     import torch
