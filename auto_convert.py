@@ -31,7 +31,7 @@ def fix_environment():
         pkgs = [
             "ai-edge-torch-nightly",
             "ai-edge-litert-nightly", 
-            "mediapipe-nightly",  # <--- The Fix
+            "mediapipe",  # <--- The Fix
             "huggingface_hub"
         ]
         subprocess.check_call(params + ["-U"] + pkgs)
